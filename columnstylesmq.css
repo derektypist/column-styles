@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	font-family: Calibri, Arial, Verdana, sans-serif;
+	padding: 15px;
+	background-color: pink;
+	text-align: center;
+}
+
+.column {
+	font-family: Arial, Verdana, sans-serif;
+	padding: 10px;
+	float: left;
+}
+
+.column.side {
+	width: 25%;
+}
+
+.column.middle {
+	width: 50%;
+}
+
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+@media screen and (max-width: 650px) {
+	.column.side, .column.width {
+		width: 100%;
+	}
+}
+
+a:link {
+	font-family: Calibri, Arial, Verdana, sans-serif;
+	color: green;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: Calibri, Arial, Verdana, sans-serif;
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Calibri, Arial, Verdana, sans-serif;
+	color: turquoise;
+	text-decoration: none;
+}
+
+a:active {
+	font-family: Calibri, Arial, Verdana, sans-serif;
+	color: brown;
+	text-decoration: none;
+}
